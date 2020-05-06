@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Hero {
+  background: url('https://res.cloudinary.com/dalnnaod7/image/upload/v1588804820/wallpaper3_yd3wgu.jpg');
+  height: 920px;
+  background-size: cover;
+  background-position: center;
+}
+
+.HeroGroup {
+  margin:0 auto;
+  /* if not 100% */
+  max-width: 500px;
+
+}
+
