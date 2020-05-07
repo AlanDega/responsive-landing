@@ -1,16 +1,17 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Header from "./components/Header"
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+
+import Landing from "./components/Landing";
 
 function App() {
   return (
     <>
-      <div className="Hero">
-        <div className="HeroGroup">
-          <h1>Aprende a desarrollar y diseñar Sitios Web</h1>
-          <p>Completa los cursos con las mejores herramientas en sistemas de diseño</p>
-        </div>
-      </div>
+    <Router>
+    <Route exact path="/" component={Landing} />
+    </Router>
     </>
   );
 }
